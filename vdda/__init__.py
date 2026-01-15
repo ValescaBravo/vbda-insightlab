@@ -28,6 +28,18 @@ from typing import Any, Dict, List, Optional
 # =============================================================================
 # CORE IMPORTS (SIEMPRE DISPONIBLES)
 # =============================================================================
+"""
+VBDA InsightLab — lightweight analytics & reporting helpers.
+
+Used across portfolio projects for consistent storytelling + visuals.
+"""
+
+from .core import *   # noqa
+from .export import * # noqa
+from .prep import *   # noqa
+from .stats import *  # noqa
+from .viz import *    # noqa
+from .ml import *     # noqa
 
 from .core import (
     # Configuración global
