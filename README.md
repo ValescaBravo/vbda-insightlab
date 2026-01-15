@@ -15,16 +15,16 @@ This library is referenced by the supporting code repositories linked from my po
 1. Clone this repo
 2. In your project environment, add it to your path or install locally:
 
-```bash
+bash
+```
 pip install -e .
+```
 
-
-Then import in Python:
-
+## Then import in Python:
+```
 import vbda
-
+```
 Notes:
-
 The portfolio “full reports” are published as static HTML for easy viewing.
 The GitHub repos linked from each project provide supporting evidence (notebooks, code, reproducibility).
 
